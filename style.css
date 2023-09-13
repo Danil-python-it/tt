@@ -157,6 +157,7 @@ input{
         margin-bottom: 5px ;
     }
     header{
+        text-align: center;
         flex-direction: column;
     }
     header img{
@@ -177,7 +178,20 @@ input{
         font-weight: bold;
         font-size:larger;
     }
+    body{
+        min-width: 350px;
+    }
+    .h1-span{
+        text-align: center;
+    }
+    .InputSumbit{
+        width: 350px;
+    }
+    .ButtonSumbit{
+        width: 350px;
+    }
 }
+
 
 
 
