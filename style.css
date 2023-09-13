@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    padding: 10px;
+    color: blanchedalmond;
+}
+header img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+header span{
+    display: flex;
+    align-items:center;
+    border-left: solid white 4px;
+    border-right: solid white 4px;
+    border-radius: 4px;
+    height: 40px;
+    padding-left:5px ;
+    padding-right:5px ;
+}
+header a{
+    display: inline-block;
+    border-left: solid 4px rgba(255, 255, 255, 0);
+    border-right: solid 4px rgba(255, 255, 255, 0);
+    padding-left:1px ;
+    padding-right:1px ;
+    border-radius: 4px;
+    transition: 1s;
+    display: flex;
+    align-items:center;
+    height: 40px;
+    padding-left:5px ;
+    padding-right:5px ;
+    border-color: white;
+}
+
+header a:hover{
+    padding-left:5px ;
+    padding-right:5px ;
+    border-color: white;
+}
+#one{
+    background: linear-gradient(170deg, rgba(222,220,39,1) 46%, rgba(0,194,255,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-basis:auto;
+    padding: 10px;
+}
+#one.containeOne{
+
+    padding: 10px;
+    margin: 20px;
+}
+#one img{
+    width: 750px;
+    height: 750px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    width: 400px;
+    height: 50px;
+    margin: 4px;
+    border: none;
+    font-size: 25px;
+}
+.InputSumbit{
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    padding-left: 10px;
+}
+.ButtonSumbit{
+    background-color: rgb(10, 9, 9);
+    color:rgb(193, 184, 77); 
+}
+.h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight:600;
+}
+.h2{
+    font-size: 25px;
+    font-weight:500;
+    display: inline-block;
+    color: rgb(65, 54, 37);;
+}
+#two{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#two .h1-span{
+    font-size: 40px;
+    color: rgb(0,0,0);
+    font-weight:600;
+}
+#two .TwoContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+#two .TwoContainer .TwoContainer-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    text-align: center;
+}
+#two .TwoContainer div img{
+    width: 90px;
+    height: 90px;
+}
+#two .image_two{
+    border-radius: 100%;
+    background-color: green;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+@media (max-width:1300px) {
+    #one img{
+        display: none;
+    }
+    #one{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    #one form{
+        align-items: center;
+    }
+
+}
+@media (max-width:750px) {
+    .TwoContaine{
+        flex-direction: column;
+    }
+    
+}
+
+
+
